@@ -1,0 +1,26 @@
+## Description
+
+Please, describe why this change need to be pulled on PowerRemove.
+
+## Utility
+
+How this change gonna be useful?
+
+## Tests
+
+Please check the tests that you have made.
+<!--Mark a X in the brackets to check, if you don't have MacOS / iOS, please write the message "I don't have MacOS / iOS"-->
+- [ ] Software running on Windows
+- [ ] Software running on MacOS
+- [ ] Software running on iOS
+- [ ] Software running on Android
+- [ ] Remove app test
+- [ ] Remove preinstalled app test
+
+## Checklist:
+<!--Mark a X in the brackets to check-->
+- [ ] My code follows the style guidelines of this project
+- [ ] My code respect the code of conduct
+- [ ] I have performed a self-review of my own code
+- [ ] My changes generate no new warnings or errors
+- [ ] ⚠️ **My code will not be harmful to others and does not delete any personal data!** ⚠️
