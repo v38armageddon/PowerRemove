@@ -1,9 +1,8 @@
-using Avalonia;
-using Avalonia.Controls;
-using Avalonia.Controls.ApplicationLifetimes;
+﻿using Avalonia;
+using Avalonia.ReactiveUI;
 using System;
 
-namespace PowerRemove
+namespace PowerRemove.Desktop
 {
     internal class Program
     {
@@ -18,6 +17,7 @@ namespace PowerRemove
         public static AppBuilder BuildAvaloniaApp()
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
-                .LogToTrace();
+                .LogToTrace()
+                .UseReactiveUI();
     }
 }
