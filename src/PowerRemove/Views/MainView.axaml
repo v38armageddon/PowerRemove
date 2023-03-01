@@ -12,5 +12,9 @@
     <vm:MainViewModel />
   </Design.DataContext>
 
-  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+	<Grid>
+		<TextBlock Text="{Binding Title}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="45"/>
+		<TextBlock Text="{Binding Subtitle}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" Margin="10,150,10,0"/>
+		<Button x:Name="detectOSButton" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Detect OS" Margin="0,300,0,0"/>
+	</Grid>
 </UserControl>

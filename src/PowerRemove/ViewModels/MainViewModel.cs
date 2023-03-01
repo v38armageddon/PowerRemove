@@ -2,6 +2,7 @@
 {
     public class MainViewModel : ViewModelBase
     {
-        public string Greeting => "Welcome to Avalonia!";
+        public string Title => "Welcome to PowerRemove!";
+        public string Subtitle => "A powerfull tool for removing apps even \npreinstalled apps.";
     }
 }
